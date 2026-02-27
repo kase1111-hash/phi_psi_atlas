@@ -186,7 +186,7 @@ If you use PhiPsi_Atlas in your work:
 ```
 
 Preprint: *Curvature Modulation on the Ramachandran Torus: Secondary Structure Signatures at Proteome Scale* (in preparation)
-
+Kase Branham
 ## License
 
 MIT
