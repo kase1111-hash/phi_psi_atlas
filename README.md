@@ -181,7 +181,7 @@ If you use PhiPsi_Atlas in your work:
 @software{phipsi_atlas,
   title = {PhiPsi_Atlas: Differential geometry of protein backbones on the Ramachandran torus},
   year = {2026},
-  url = {https://github.com/[you]/PhiPsi_Atlas}
+  url = {https://github.com/kase1111-hash/PhiPsi_Atlas}
 }
 ```
 
