@@ -27,6 +27,38 @@ Every protein backbone traces a path through Ramachandran space. PhiPsi_Atlas co
 
 Helices are the most curvature-modulated secondary structure on T². Coil is the only type smoother than its basin null. ~90% of proteins wind into negative ψ.
 
+### Peak decode: curvature events are fold-driven
+
+Gaussian peaks are **not** driven by proline kinks or glycine flexibility (Pro+Gly = 10.8% at peaks ≈ 12% baseline). Instead, leucine (12.1%), alanine (10.3%), and glutamate (8.7%) dominate — common helix residues whose curvature signatures arise from side-chain packing and electrostatics. **The barcode reads the fold, not the genome.**
+
+### Territorial exclusion zones
+
+Consecutive helix Gaussian peaks maintain a minimum spacing of 11 residues (~3 helix turns), with zero pairs below 10 versus 46.5% expected under random placement. Each peak "claims" ~10 residues of territory — the cooperative length of the α-helix H-bond network. Peaks are territorial, not cooperative (no phased-array signal detected).
+
+### Inverse fold: geometry → sequence
+
+A (φ, ψ) → amino acid frequency table built from 999 structures achieves:
+
+| Metric | Accuracy | vs Random |
+|--------|----------|-----------|
+| Top-1 | 18.3% | 3.7× |
+| Top-3 | 37.6% | 2.5× |
+| Top-5 | 51.6% | 2.1× |
+
+Backbone geometry on T² encodes ~44% of sequence entropy, recoverable without 3D coordinates.
+
+### Geometric homology search: EGFR case study
+
+Searching 1,279 barcoded proteins for geometric analogs of EGFR (P00533):
+
+| Rank | Protein | Score | Coverage | Matched | Relationship |
+|------|---------|-------|----------|---------|-------------|
+| 1 | ErbB4 (O14976) | 0.741 | 87% | 81/99 | Same ErbB family |
+| 3 | Astrotactin-1 (O14525) | 0.733 | 75% | 75/119 | No sequence homology |
+| 4 | IRE1 (O75460) | 0.730 | 82% | 74/100 | Shared TM+kinase architecture |
+
+The search retrieves a known family member (ErbB4) as the top hit without sequence information, plus architecturally analogous proteins (IRE1) and candidate novel geometric relationships (ASTN1). Systematic benchmarking against BLAST/DALI is required.
+
 ## Installation
 
 ```bash
@@ -74,6 +106,32 @@ python basin_null_alphafold.py --reps 5
 python basin_null_alphafold.py --max-proteins 500 --reps 3
 ```
 
+### Inverse fold: geometry → sequence
+```bash
+# Build reference table from cached structures (run once, ~10 min)
+python inverse_fold.py build
+
+# Predict amino acid probabilities for a protein
+python inverse_fold.py predict P00533
+
+# Validate accuracy across barcoded proteins
+python inverse_fold.py validate
+
+# Decode what amino acids sit at Gaussian peak positions
+python inverse_fold.py peak-decode
+
+# Reference table statistics
+python inverse_fold.py stats
+```
+
+### Geometric homology search
+```bash
+python geom_homology.py search P00533 --top 20   # find analogs
+python geom_homology.py compare P00533 O14976     # pairwise detail
+python geom_homology.py cluster                    # all-vs-all
+python geom_homology.py matrix                     # substitution matrix
+```
+
 ### Inspect results
 ```bash
 # Dashboard with distributions, winding maps, cluster analysis
@@ -86,6 +144,8 @@ python analyze_barcodes.py --top-geodesic 20      # smoothest proteins
 python analyze_barcodes.py --winding-map           # ASCII (p,q) scatter
 python analyze_barcodes.py --clusters              # group by SS composition
 python analyze_barcodes.py --defect-catalog        # all Gaussian peaks ranked
+python analyze_barcodes.py --peak-analysis         # functional vs structural peaks
+python analyze_barcodes.py --inter-peak-spacing    # exclusion zone + phased array test
 ```
 
 ## Project structure
@@ -96,14 +156,21 @@ PhiPsi_Atlas/
 │                                  Sections 1–15: math, curvature, classification,
 │                                  winding, barcodes, AlphaFold ingestion, reporting
 ├── basin_null_alphafold.py      # Basin-control Markov null analysis
+├── inverse_fold.py              # (φ,ψ) → amino acid frequency table + peak decode
+├── geom_homology.py             # Geometric homology search (Smith-Waterman on barcodes)
 ├── analyze_barcodes.py          # Barcode database dashboard + queries
 ├── human_2000.txt               # Example UniProt ID list (human proteome sample)
 ├── alphafold_cache/             # Local AlphaFold structure cache (user-provided)
 ├── data/
-│   └── alphafold/               # Downloaded structures (auto-created)
+│   ├── alphafold/               # Downloaded structures (auto-created)
+│   ├── uniprot_features/        # Cached UniProt functional annotations
+│   └── rama_aa_frequency_table.json  # Inverse fold reference table
 └── results/
     ├── barcodes/                # Per-protein JSON barcodes
     ├── basin_null_results.json  # Null analysis output
+    ├── peak_analysis_results.json     # Functional vs structural peak comparison
+    ├── peak_decode_results.json       # AA identity at Gaussian peaks
+    ├── inter_peak_spacing_results.json # Exclusion zone analysis
     └── reports/                 # Per-protein text reports
 ```
 
@@ -172,6 +239,7 @@ This preserves basin identity, local step-size statistics, and segment lengths w
 - **Basin null (200 proteins, 2 reps)**: ~15 minutes
 - **Full proteome (20k proteins)**: ~12 hours for barcodes, ~24 hours for null
 
+Memory: <2 GB for any single protein. Batch processing is sequential.
 
 ## Citation
 
