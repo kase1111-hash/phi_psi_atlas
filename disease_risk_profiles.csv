@@ -1,0 +1,223 @@
+gene,disease,risk_category,n_diet_mimics,n_micro_mimics,diet_species,micro_species,best_diet_score,best_micro_score,n_replacements,rep_species,best_rep_score,concentration,gini
+COX11,"Mitochondrial complex IV deficiency, nuclear type 23",A_HIGH,7,3,arabidopsis|rice|yeast,bacillus|pseudomonas|salmonella,100,100,10,arabidopsis|cow|mouse|pseudomonas|zebrafish,100,82.6,0.9357
+FGF23,"Hypophosphatemic rickets, autosomal dominant; Tumoral calcinosis, hyperphosphate",A_HIGH,9,1,arabidopsis|rice,bacillus,100,92,10,arabidopsis|bacillus|fly|mouse|rat|rice,100,53.9,0.9339
+GMPPB,Muscular dystrophy-dystroglycanopathy congenital with brain and eye anomalies A1,A_HIGH,8,2,arabidopsis|rice,pseudomonas|tuberculosis,100,92,10,arabidopsis|mouse|pseudomonas|rice|tuberculosis,100,60.2,0.9212
+LHB,Hypogonadotropic hypogonadism 23 with or without anosmia,A_HIGH,7,3,arabidopsis,bacillus,92,100,10,arabidopsis|bacillus|chimp|cow|dictyostelium|mouse|pig|rat,100,51.8,0.9291
+PPIB,Osteogenesis imperfecta 9,A_HIGH,9,1,arabidopsis|rice|yeast,bacillus,100,92,10,arabidopsis|dog|mouse|rice|yeast,100,39.5,0.9212
+ACO2,Infantile cerebellar-retinal degeneration; Optic atrophy 9,A_HIGH,8,2,arabidopsis|yeast,campylobacter|ecoli,100,90,10,arabidopsis|campylobacter|cow|ecoli|mouse|rat|worm,100,225.4,0.9212
+ERCC8,Cockayne syndrome A; UV-sensitive syndrome 2,A_HIGH,9,1,arabidopsis|rice,bacillus,95,95,10,arabidopsis|bacillus|mouse|rat|rice,95,121.7,0.9281
+GBA1,Gaucher disease; Gaucher disease 1; Gaucher disease 2; Gaucher disease 3; Gauche,A_HIGH,8,2,arabidopsis|rice|soybean|yeast,candida|helicobacter,100,90,10,arabidopsis|chimp|cow|fly|rice|soybean|worm|yeast,100,162.4,0.9335
+LFNG,"Spondylocostal dysostosis 3, autosomal recessive",A_HIGH,7,3,arabidopsis|yeast,bacillus|ecoli,100,90,10,arabidopsis|bacillus|chimp|cow|mouse,100,58.2,0.9211
+NGF,"Neuropathy, hereditary sensory and autonomic, 5",A_HIGH,7,3,arabidopsis|rice|yeast,candida|helicobacter|tuberculosis,93,97,10,arabidopsis|candida|cat|cow|fly|mouse|tuberculosis,97,117.2,0.939
+RSPO4,"Nail disorder, non-syndromic congenital, 4",A_HIGH,7,3,arabidopsis|rice,candida|ecoli|staph,95,95,10,arabidopsis|candida|chimp|cow|fly|mouse|rice|staph,95,45.7,0.9273
+SPACA1,Spermatogenic failure 85,A_HIGH,4,6,arabidopsis|rice|yeast,candida|pseudomonas|salmonella|tuberculosis,95,95,10,arabidopsis|cow|mouse|pseudomonas|rat|yeast,95,105.8,0.9306
+TLE6,Oocyte/zygote/embryo maturation arrest 15,A_HIGH,9,1,arabidopsis|rice|yeast,pseudomonas,100,90,10,arabidopsis|fission_yeast|fly|mouse|rat|worm|yeast,100,96.9,0.9294
+TM2D3,Alzheimer disease,A_HIGH,8,2,arabidopsis|maize|rice,bacillus|ecoli,95,95,10,arabidopsis|bacillus|dictyostelium|ecoli|maize|mouse|zebrafish,95,83.6,0.927
+MOGS,Type IIb congenital disorder of glycosylation,A_HIGH,4,6,arabidopsis|rice,bacillus|campylobacter|ecoli|helicobacter|salmonella|tuberculosis,97,92,10,arabidopsis|chicken|helicobacter|rat|rice|salmonella|tuberculosis|worm,97,146.8,0.9277
+MPEG1,Immunodeficiency 77,A_HIGH,9,1,arabidopsis|rice|soybean|yeast,bacillus,97,92,10,arabidopsis|bacillus|fission_yeast|mouse|worm,100,208.6,0.9415
+CFI,"Hemolytic uremic syndrome, atypical, 3; Complement factor I deficiency; Macular ",A_HIGH,9,1,arabidopsis|rice|soybean|yeast,candida,93,95,10,candida|cow|dictyostelium|mouse|worm|yeast,95,90.4,0.9247
+GRHPR,Hyperoxaluria primary 2,A_HIGH,6,4,arabidopsis|rice|soybean|yeast,candida|ecoli|pseudomonas,95,93,10,arabidopsis|candida|cow|mouse|rat|rice|yeast,100,107.5,0.9243
+CBLIF,Hereditary intrinsic factor deficiency,A_HIGH,5,5,arabidopsis|rice|soybean|yeast,ecoli|pseudomonas|salmonella|staph|tuberculosis,92,95,10,arabidopsis|cow|ecoli|pseudomonas|rice|salmonella|staph|yeast|zebrafish,95,222.0,0.9282
+CCM2,Cerebral cavernous malformations 2,A_HIGH,8,2,arabidopsis|rice|yeast,salmonella|tuberculosis,95,92,10,arabidopsis|dictyostelium|fission_yeast|mouse|salmonella|tuberculosis|yeast,95,258.1,0.9442
+DLL1,Neurodevelopmental disorder with non-specific brain abnormalities and with or wi,A_HIGH,9,1,arabidopsis|rice|yeast,candida,95,92,10,candida|fission_yeast|fly|mouse|rice|zebrafish,100,94.6,0.9334
+HNF1A,Hepatic adenomas familial; Maturity-onset diabetes of the young 3; Type 1 diabet,A_HIGH,9,1,arabidopsis|rice|yeast,tuberculosis,95,92,10,arabidopsis|chicken|fission_yeast|fly|rat|tuberculosis|yeast,97,182.7,0.9296
+LPL,"Hyperlipoproteinemia 1; Hyperlipidemia, familial combined, 3",A_HIGH,8,2,arabidopsis|rice|yeast,candida|tuberculosis,92,95,10,arabidopsis|chicken|cow|dictyostelium|fly|rice|tuberculosis,95,176.9,0.932
+PLD3,Spinocerebellar ataxia 46,A_HIGH,9,1,arabidopsis|rice|soybean|yeast,candida,97,90,10,arabidopsis|candida|cow|mouse|rice,97,104.4,0.9307
+B4GALT7,"Ehlers-Danlos syndrome, spondylodysplastic type, 1",A_HIGH,6,3,arabidopsis,ecoli|salmonella,95,90,10,arabidopsis|cow|dictyostelium|ecoli|mouse|zebrafish,95,99.7,0.945
+DLL3,"Spondylocostal dysostosis 1, autosomal recessive",A_HIGH,9,1,arabidopsis|rice|yeast,bacillus,95,90,10,arabidopsis|bacillus|dictyostelium|fly|mouse|rice,95,116.2,0.933
+GNB4,"Charcot-Marie-Tooth disease, dominant intermediate F",A_HIGH,8,2,arabidopsis|maize|rice,ecoli|pseudomonas,90,95,10,chicken|cow|dog|ecoli|mouse,100,40.9,0.9292
+HAAO,"Vertebral, cardiac, renal, and limb defects syndrome 1",A_HIGH,8,2,arabidopsis|rice,ecoli|salmonella,90,95,10,arabidopsis|dictyostelium|fly|mouse|rat|rice|salmonella,95,166.6,0.935
+NTRK2,"Developmental and epileptic encephalopathy 58; Obesity, hyperphagia, and develop",A_HIGH,9,1,arabidopsis|rice|yeast,ecoli,95,90,10,arabidopsis|fly|mouse|rat,95,138.4,0.9247
+PON1,Microvascular complications of diabetes 5,A_HIGH,7,3,arabidopsis|rice,bacillus|ecoli|pseudomonas,90,95,10,chicken|dog|ecoli|mouse|rat,100,39.4,0.926
+THOC6,Beaulieu-Boycott-Innes syndrome,A_HIGH,7,3,arabidopsis|rice,ecoli|salmonella,90,95,10,cow|dog|ecoli|mouse|rat,100,87.7,0.927
+TMPRSS6,Iron-refractory iron deficiency anemia,A_HIGH,9,1,arabidopsis|rice|yeast,candida,95,90,10,arabidopsis|cow|mouse|rat|rice|worm,97,82.0,0.9306
+CLEC7A,"Candidiasis, familial, 4",A_HIGH,8,1,arabidopsis|rice|yeast,staph,92,92,10,arabidopsis|dictyostelium|mouse|pig|rat|staph|yeast,95,40.5,0.9242
+DGKE,"Nephrotic syndrome 7; Hemolytic uremic syndrome, atypical, 7",A_HIGH,7,3,arabidopsis|rice|yeast,candida|ecoli,92,92,10,arabidopsis|candida|chicken|fly|mouse|rat|rice|yeast,93,307.6,0.9402
+B2M,"Immunodeficiency 43; Amyloidosis, hereditary systemic 6",A_HIGH,8,2,arabidopsis|rice|yeast,bacillus,92,90,10,arabidopsis|bacillus|chicken|chimp|cow|mouse,95,57.0,0.9299
+CD19,"Immunodeficiency, common variable, 3",A_HIGH,9,1,arabidopsis|rice|yeast,candida,87,95,10,candida|chimp|dog|mouse,97,73.2,0.9266
+LIMS2,"Muscular dystrophy, autosomal recessive, with cardiomyopathy and triangular tong",A_HIGH,9,1,arabidopsis|rice|yeast,bacillus,90,92,10,arabidopsis|bacillus|dictyostelium|mouse|rat|rice,92,81.0,0.9354
+LRRC56,"Ciliary dyskinesia, primary, 39",A_HIGH,8,2,arabidopsis|rice|yeast,helicobacter|pseudomonas,92,90,10,arabidopsis|cow|dictyostelium|fission_yeast|mouse|pseudomonas|rat,92,179.7,0.9259
+NCF1,"Granulomatous disease, chronic, autosomal recessive, 1",A_HIGH,5,5,arabidopsis|rice|yeast,bacillus|campylobacter|ecoli|salmonella,92,90,10,arabidopsis|bacillus|campylobacter|cow|dictyostelium|ecoli|mouse|salmonella,92,124.1,0.9368
+RAB33B,Smith-McCort dysplasia 2,A_HIGH,5,5,arabidopsis|maize|rice|yeast,bacillus|campylobacter|ecoli|pseudomonas,90,92,10,bacillus|campylobacter|cow|fission_yeast|maize|mouse|rat,100,93.0,0.9269
+SOHLH1,Spermatogenic failure 32; Ovarian dysgenesis 5,A_HIGH,6,4,arabidopsis|rice,campylobacter|candida|salmonella,95,87,10,arabidopsis|campylobacter|mouse|rice|zebrafish,95,130.1,0.9423
+TACSTD2,"Corneal dystrophy, gelatinous drop-like",A_HIGH,7,3,arabidopsis|maize|rice|yeast,bacillus|ecoli|pseudomonas,92,90,10,arabidopsis|cow|dog|maize|mouse|rat|worm,95,92.7,0.923
+TBL1XR1,"Pierpont syndrome; Intellectual developmental disorder, autosomal dominant 41",A_HIGH,8,2,arabidopsis|rice|soybean|yeast,tuberculosis,90,92,10,arabidopsis|dictyostelium|fission_yeast|mouse|rat|soybean|tuberculosis,100,90.9,0.9361
+TNFRSF10B,Squamous cell carcinoma of the head and neck,A_HIGH,9,1,arabidopsis|rice|yeast,bacillus,92,90,10,arabidopsis|bacillus|chicken|cow|mouse|rat|rice,92,160.3,0.9352
+ARL3,Joubert syndrome 35; Retinitis pigmentosa 83,A_HIGH,2,8,arabidopsis|yeast,bacillus|ecoli|salmonella,87,93,10,arabidopsis|bacillus|chicken|fission_yeast|rat|salmonella|zebrafish,95,108.6,0.9333
+CD40,Immunodeficiency with hyper-IgM 3,A_HIGH,7,3,arabidopsis|rice|yeast,campylobacter|candida|staph,88,92,10,arabidopsis|campylobacter|cow|mouse|rat|staph,100,103.9,0.9389
+CHM,Choroideremia,A_HIGH,7,3,arabidopsis|rice|yeast,bacillus|tuberculosis,90,90,10,arabidopsis|cow|fly|mouse|rat|zebrafish,95,127.8,0.9235
+CNNM4,Jalili syndrome,A_HIGH,6,3,arabidopsis|rice|yeast,candida|ecoli|tuberculosis,88,92,9,arabidopsis|dictyostelium|ecoli|mouse|rat|rice|worm,92,305.7,0.9471
+DLL4,Adams-Oliver syndrome 6,A_HIGH,9,1,arabidopsis|rice,candida,90,90,10,arabidopsis|candida|cow|dictyostelium|dog|mouse,95,124.7,0.9369
+FKRP,Muscular dystrophy-dystroglycanopathy congenital with brain and eye anomalies A5,A_HIGH,8,2,arabidopsis|rice|soybean|yeast,candida|ecoli,90,90,10,arabidopsis|candida|chicken|cow|dictyostelium|ecoli|fission_yeast|rat|rice,100,88.5,0.9295
+GPIHBP1,Hyperlipoproteinemia 1D,A_HIGH,8,2,arabidopsis|rice,candida|tuberculosis,90,90,10,arabidopsis|candida|dictyostelium|fly|mouse|pig|rat|worm,95,50.6,0.9215
+ISG15,"Immunodeficiency 38, with basal ganglia calcification",A_HIGH,6,4,arabidopsis|soybean|yeast,bacillus|ecoli|pseudomonas,90,90,10,arabidopsis|cow|dictyostelium|mouse|pseudomonas|rat|worm|yeast,93,61.0,0.9357
+SCN2B,"Atrial fibrillation, familial, 14",A_HIGH,7,3,arabidopsis|rice,bacillus|campylobacter|ecoli,88,92,10,bacillus|campylobacter|chicken|cow|ecoli|mouse|rat,92,71.8,0.9448
+SUN5,Spermatogenic failure 16,A_HIGH,9,1,arabidopsis|rice|yeast,bacillus,90,90,10,arabidopsis|bacillus|dictyostelium|mouse|rat|worm|yeast,95,177.8,0.925
+TMPRSS3,"Deafness, autosomal recessive, 8",A_HIGH,7,2,arabidopsis|rice|yeast,tuberculosis,90,90,10,arabidopsis|dictyostelium|malaria|mouse|rat|tuberculosis,100,99.7,0.9452
+TPK1,"Thiamine metabolism dysfunction syndrome 5, episodic encephalopathy type",A_HIGH,7,3,arabidopsis|maize|rice|yeast,ecoli|pseudomonas|tuberculosis,90,90,10,arabidopsis|dictyostelium|ecoli|fission_yeast|pseudomonas|rice|worm|yeast,90,152.2,0.9487
+VEZF1,"Cardiomyopathy, dilated, 1OO",A_HIGH,9,1,arabidopsis|rice|soybean|yeast,bacillus,90,90,10,bacillus|chicken|cow|fission_yeast|fly|pig|rice|soybean|worm|yeast,92,67.3,0.9275
+DCT,"Albinism, oculocutaneous, 8",A_HIGH,7,3,arabidopsis|maize|rice|yeast,staph|tuberculosis,92,87,10,arabidopsis|chicken|cow|fission_yeast|fly|gorilla|maize|tuberculosis|worm|yeast,92,100.9,0.942
+TSHB,"Hypothyroidism, congenital, non-goitrous, 4",A_HIGH,8,2,arabidopsis|rice|soybean,bacillus,92,87,10,arabidopsis|bacillus|chicken|cow|fly|honeybee|mouse,97,69.9,0.9389
+YAP1,"Coloboma, ocular, with or without hearing impairment, cleft lip/palate, and/or i",A_HIGH,8,2,arabidopsis|rice|yeast,candida|staph,92,87,10,arabidopsis|cow|fly|mouse|rat|rice|staph|worm,92,88.8,0.9322
+CD70,Lymphoproliferative syndrome 3,A_HIGH,6,4,arabidopsis|rice|yeast,bacillus|pseudomonas|tuberculosis,88,90,10,chicken|cow|dictyostelium|fission_yeast|mouse|pseudomonas|rat|rice|tuberculosis,93,65.4,0.9383
+GRIN2A,"Epilepsy, focal, with speech disorder and with or without impaired intellectual ",A_HIGH,8,1,arabidopsis|rice,candida,88,90,10,arabidopsis|candida|chimp|fly|mouse|worm,100,208.9,0.9211
+RNF220,"Leukodystrophy, hypomyelinating, 23, with ataxia, deafness, liver dysfunction, a",A_HIGH,7,3,arabidopsis|yeast,candida|staph|tuberculosis,90,88,10,arabidopsis|candida|cow|dictyostelium|fly|mouse|staph,100,110.0,0.9319
+SMOC1,Ophthalmoacromelic syndrome,A_HIGH,7,3,arabidopsis|rice|yeast,ecoli|tuberculosis,90,88,10,arabidopsis|dictyostelium|mouse|rat|worm|zebrafish,97,147.8,0.928
+SOBP,"Impaired intellectual development, anterior maxillary protrusion, and strabismus",A_HIGH,4,1,rice|yeast,candida,95,83,4,fission_yeast|fly|rice|yeast,95,493.1,0.9428
+SYK,Immunodeficiency 82 with systemic inflammation,A_HIGH,8,2,arabidopsis|yeast,salmonella|tuberculosis,90,88,10,arabidopsis|cow|fission_yeast|mouse|salmonella|yeast,100,249.2,0.9267
+ARR3,"Myopia 26, X-linked, female-limited",A_HIGH,8,1,arabidopsis|rice,candida,95,82,10,arabidopsis|chicken|chimp|fission_yeast|leishmania|mouse|rat,97,150.9,0.9221
+GOT2,Developmental and epileptic encephalopathy 82,A_HIGH,8,2,arabidopsis|rice,ecoli|pseudomonas,92,85,10,arabidopsis|chicken|cow|fission_yeast|fly|mouse|rat|worm,95,239.9,0.9276
+HFE,Hemochromatosis 1,A_HIGH,6,4,arabidopsis|rice|yeast,bacillus|pseudomonas|tuberculosis,87,90,10,arabidopsis|bacillus|cat|cow|fly|mouse|tuberculosis|worm,92,206.3,0.9549
+HNRNPDL,"Muscular dystrophy, limb-girdle, autosomal dominant 3",A_HIGH,9,1,arabidopsis|rice|yeast,staph,90,87,10,arabidopsis|chicken|cow|fission_yeast|mouse|staph,92,121.6,0.9217
+IKZF5,Thrombocytopenia 7,A_HIGH,9,1,arabidopsis|rice|yeast,ecoli,90,87,10,arabidopsis|cow|ecoli|mouse|rat|worm,95,65.1,0.9363
+IL1R1,Chronic recurrent multifocal osteomyelitis 3,A_HIGH,7,3,arabidopsis,tuberculosis,90,87,10,arabidopsis|mouse|rat,97,87.5,0.9362
+KLK11,Ichthyosis with erythrokeratoderma,A_HIGH,8,2,arabidopsis|rice|soybean|yeast,bacillus|ecoli,90,87,10,arabidopsis|bacillus|fly|mouse|pig|rat,95,37.7,0.9281
+MFRP,"Nanophthalmos 2; Microphthalmia, isolated, 5",A_HIGH,9,1,arabidopsis|yeast,candida,90,87,10,arabidopsis|chicken|dog|fly|mouse,95,152.4,0.9402
+NRXN1,Pitt-Hopkins-like syndrome 2; Schizophrenia 17,A_HIGH,1,1,yeast,tuberculosis,87,90,10,chicken|cow|mouse|rat,95,172.7,0.9268
+SLURP1,Mal de Meleda,A_HIGH,8,2,arabidopsis|maize|yeast,bacillus|pseudomonas,92,85,10,arabidopsis|chimp|cow|fly|gorilla|maize|mouse|rat,95,31.2,0.922
+SYN1,"Epilepsy, X-linked 1, with variable learning disabilities and behavior disorders",A_HIGH,9,1,arabidopsis|rice,candida,92,85,10,arabidopsis|cow|dictyostelium|mouse|rat|rice,100,119.7,0.9274
+TLR5,Systemic lupus erythematosus 1,A_HIGH,9,1,arabidopsis|rice|yeast,helicobacter,90,87,10,arabidopsis|dictyostelium|gorilla|helicobacter|worm|yeast,90,179.7,0.935
+EPOR,"Erythrocytosis, familial, 1",A_HIGH,6,4,arabidopsis|rice|yeast,candida|ecoli|salmonella,90,85,10,arabidopsis|cow|dog|mouse|worm,92,195.7,0.9327
+FCGR2B,Systemic lupus erythematosus,A_HIGH,8,2,arabidopsis|rice|yeast,campylobacter|candida,85,90,10,campylobacter|candida|cow|mouse|rat,90,151.5,0.951
+GATA1,X-linked dyserythropoietic anemia and thrombocytopenia; Thrombocytopenia with be,A_HIGH,8,2,arabidopsis|maize|rice|yeast,ecoli|salmonella,90,85,10,cow|dictyostelium|fission_yeast|fly|maize|mouse|rat|rice,95,78.5,0.9223
+IFNGR2,Immunodeficiency 28,A_HIGH,7,3,arabidopsis|rice|yeast,helicobacter|pseudomonas|salmonella,85,90,10,arabidopsis|cow|helicobacter|mouse|rat,95,74.5,0.9454
+LAMP2,Danon disease,A_HIGH,4,2,arabidopsis|yeast,ecoli|salmonella,90,85,10,arabidopsis|chicken|dog|mouse|rat|yeast,95,121.2,0.9569
+MPZL2,"Deafness, autosomal recessive, 111",A_HIGH,3,7,arabidopsis|maize|yeast,bacillus|ecoli|pseudomonas|salmonella,85,90,10,arabidopsis|bacillus|chicken|cow|fission_yeast|mouse|salmonella,92,74.7,0.9382
+NECTIN1,"Ectodermal dysplasia, Margarita Island type; Non-syndromic orofacial cleft 7",A_HIGH,6,4,arabidopsis|rice|yeast,candida|ecoli|salmonella,88,87,10,arabidopsis|chicken|fly|mouse|salmonella|zebrafish,100,109.7,0.9316
+TNIK,"Intellectual developmental disorder, autosomal recessive 54",A_HIGH,4,1,arabidopsis,campylobacter,95,80,9,arabidopsis|fly|mouse|rat|worm,95,374.9,0.9246
+BUD13,Achalasia-progeroid syndrome,A_HIGH,9,1,arabidopsis|maize|rice|yeast,candida,92,82,10,arabidopsis|chicken|cow|dictyostelium|mouse|rat|yeast,93,247.5,0.9293
+CORIN,"Pre-eclampsia/eclampsia 5; Cardiomyopathy, familial hypertrophic, 30, atrial",A_HIGH,9,1,arabidopsis|rice|yeast,ecoli,92,82,10,arabidopsis|dictyostelium|fly|mouse|worm|yeast|zebrafish,93,205.2,0.9236
+FAM177A1,Neurodevelopmental disorder with white matter abnormalities and gait disturbance,A_HIGH,5,4,arabidopsis|rice|yeast,bacillus|ecoli|pseudomonas,85,88,10,arabidopsis|cow|ecoli|gorilla|mouse|pseudomonas|rat|rice,90,70.0,0.9305
+ZMIZ1,Neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies,A_HIGH,9,1,arabidopsis|rice|yeast,pseudomonas,90,83,10,arabidopsis|dictyostelium|fission_yeast|mouse,90,157.7,0.9214
+ADAM22,Developmental and epileptic encephalopathy 61,A_HIGH,4,1,arabidopsis|maize|rice|yeast,candida,92,80,1,maize,92,438.8,0.9493
+DCLRE1B,"Dyskeratosis congenita, autosomal recessive, 8",A_HIGH,9,1,arabidopsis|rice|yeast,tuberculosis,87,85,10,arabidopsis|chicken|cow|fission_yeast|mouse|rice|worm,92,309.8,0.9512
+DEAF1,"Vulto-van Silfout-de Vries syndrome; Neurodevelopmental disorder with hypotonia,",A_HIGH,9,1,arabidopsis|rice|yeast,tuberculosis,92,80,10,arabidopsis|chimp|cow|mouse|rat,92,42.3,0.9335
+IFNAR2,Immunodeficiency 45,A_HIGH,8,2,arabidopsis|rice,candida,87,85,10,arabidopsis|cow|dog|mouse|rat,95,127.9,0.9339
+JPH3,Huntington disease-like 2,A_HIGH,8,2,arabidopsis|yeast,candida,85,87,10,arabidopsis|candida|cow|dictyostelium|mouse|rat,95,222.9,0.9314
+LAT,Immunodeficiency 52,A_HIGH,9,1,arabidopsis|rice|yeast,campylobacter,90,82,9,arabidopsis|fission_yeast|fly|mouse|rat|rice,90,86.8,0.949
+LRRC32,"Cleft palate, proliferative retinopathy, and developmental delay",A_HIGH,9,1,arabidopsis|rice|yeast,tuberculosis,87,85,10,arabidopsis|chicken|dictyostelium|fly|mouse,97,132.6,0.9438
+PRLR,Multiple fibroadenomas of the breast; Hyperprolactinemia,A_HIGH,9,1,arabidopsis|rice|yeast,candida,85,87,10,arabidopsis|candida|chicken|cow|mouse|rat,95,90.2,0.9305
+BTNL2,Sarcoidosis 2,A_HIGH,8,2,arabidopsis|rice,bacillus|pseudomonas,85,85,10,arabidopsis|bacillus|dictyostelium|mouse|rat|rice|worm,90,318.2,0.9456
+CNTNAP1,"Lethal congenital contracture syndrome 7; Neuropathy, congenital hypomyelinating",A_HIGH,5,2,yeast,candida|tuberculosis,90,80,10,chicken|cow|fly|mouse|rat,100,241.4,0.9231
+CSF2RA,Pulmonary surfactant metabolism dysfunction 4,A_HIGH,9,1,arabidopsis|rice|yeast,pseudomonas,88,82,10,cow|dog|mouse|pig|rat|worm,100,67.5,0.9218
+GP1BA,Non-arteritic anterior ischemic optic neuropathy; Bernard-Soulier syndrome; Bern,A_HIGH,9,1,arabidopsis|rice|yeast,candida,87,83,10,dog|mouse|rat,100,243.3,0.9444
+NAF1,"Pulmonary fibrosis, and/or bone marrow failure syndrome, telomere-related, 7",A_HIGH,2,5,arabidopsis,candida|ecoli|salmonella|staph,85,85,10,arabidopsis|fly|mouse|rat,95,94.7,0.9301
+PDZD8,Intellectual developmental disorder with autism and dysmorphic facies,A_HIGH,6,2,arabidopsis|rice,candida,85,85,8,arabidopsis|candida|fly|mouse|worm|zebrafish,90,255.2,0.9295
+PHOX2A,"Fibrosis of extraocular muscles, congenital, 2",A_HIGH,6,4,arabidopsis|rice,bacillus|ecoli|salmonella|tuberculosis,82,88,7,bacillus|cow|ecoli|mouse|rat,95,175.5,0.95
+RUNX2,Cleidocranial dysplasia 1; Metaphyseal dysplasia with maxillary hypoplasia with ,A_HIGH,7,3,arabidopsis|rice,candida|pseudomonas,85,85,10,arabidopsis|cow|dog|fly|mouse|rat,97,104.2,0.9376
+ST14,"Ichthyosis, congenital, autosomal recessive 11",A_HIGH,9,1,arabidopsis|rice|yeast,candida,87,82,10,arabidopsis|cow|mouse|worm,95,95.8,0.9318
+CDH2,"Arrhythmogenic right ventricular dysplasia, familial, 14; Agenesis of corpus cal",A_HIGH,4,1,arabidopsis|rice,pseudomonas,85,83,10,chicken|mouse|rat,100,208.9,0.9225
+ATL3,"Neuropathy, hereditary sensory, 1F",A_HIGH,6,3,arabidopsis|rice|yeast,ecoli|tuberculosis,85,82,2,yeast|zebrafish,85,316.9,0.9213
+CD320,"Methylmalonic aciduria, transient, due to transcobalamin receptor defect",A_HIGH,9,1,arabidopsis|rice|yeast,ecoli,85,80,9,arabidopsis|cow|mouse|rat|rice|zebrafish,87,48.1,0.9305
+ELF4,"Autoinflammatory syndrome, familial, X-linked, Behcet-like 2",A_HIGH,3,1,arabidopsis|yeast,tuberculosis,85,80,2,arabidopsis|rat,85,256.1,0.9329
+ENAM,Amelogenesis imperfecta 1B; Amelogenesis imperfecta 1C,A_HIGH,1,1,arabidopsis,candida,80,85,1,candida,85,436.1,0.9388
+FOXE1,"Bamforth-Lazarus syndrome; Thyroid cancer, non-medullary, 4",A_HIGH,3,1,arabidopsis|rice,tuberculosis,85,80,3,mouse|rice,87,128.8,0.9737
+HOXA2,"Microtia, hearing impairment, and cleft palate; Microtia with or without hearing",A_HIGH,7,1,arabidopsis|rice,bacillus,85,80,10,arabidopsis|cow|honeybee|mouse|pig|rat|zebrafish,95,102.4,0.9258
+MAG,"Spastic paraplegia 75, autosomal recessive",A_HIGH,6,2,arabidopsis|rice|yeast,bacillus|candida,85,80,10,cow|mouse|rat|zebrafish,100,69.8,0.921
+SCARF2,Van den Ende-Gupta syndrome,A_HIGH,2,2,arabidopsis,candida,80,85,10,candida|mouse|rat,95,67.5,0.9231
+GALT,Galactosemia 1,A_HIGH,3,1,arabidopsis,tuberculosis,82,82,5,fission_yeast|mouse|rat,92,160.3,0.9722
+FLRT3,Hypogonadotropic hypogonadism 21 with or without anosmia,A_HIGH,7,1,arabidopsis|yeast,candida,83,80,10,dog|mouse|rat|zebrafish,95,122.1,0.9484
+ATXN1,Spinocerebellar ataxia 1,A_HIGH,2,1,arabidopsis|yeast,helicobacter,82,80,2,chicken|rat,85,151.1,0.9366
+GCM2,"Hypoparathyroidism, familial isolated, 2; Hyperparathyroidism 4",A_HIGH,1,1,yeast,candida,80,80,2,rat,88,276.5,0.9204
+CDC40,Pontocerebellar hypoplasia 15,B_MODERATE,10,0,arabidopsis|rice|yeast,,100,0,10,arabidopsis|chicken|cow|dog|rice|yeast,100,118.3,0.9201
+FGF17,Hypogonadotropic hypogonadism 20 with or without anosmia,B_MODERATE,10,0,arabidopsis|rice|soybean,,100,0,10,arabidopsis|chicken|rat|rice,100,64.7,0.9347
+FGF8,Hypogonadotropic hypogonadism 6 with or without anosmia; Hypoplastic femurs and ,B_MODERATE,10,0,arabidopsis|rice,,100,0,10,arabidopsis|cow|fission_yeast|rice,100,56.7,0.926
+PRKCH,Ischemic stroke,B_MODERATE,10,0,arabidopsis|rice,,100,0,10,arabidopsis|cow|dictyostelium|worm,100,167.2,0.9248
+SEMA7A,"Cholestasis, progressive familial intrahepatic, 11",B_MODERATE,10,0,arabidopsis|rice,,100,0,10,arabidopsis|mouse|rat|rice,100,200.4,0.9213
+FBXW4,Split-hand/foot malformation 3,B_MODERATE,10,0,arabidopsis|rice|yeast,,97,0,10,arabidopsis|chicken|mouse|rat|rice,97,139.3,0.9376
+IL1RAPL1,"Intellectual developmental disorder, X-linked 21",B_MODERATE,9,0,arabidopsis|rice|yeast,,97,0,10,arabidopsis|chimp|cow|mouse|rice|worm|zebrafish,100,126.1,0.9236
+TBL1X,"Hypothyroidism, congenital, non-goitrous, 8",B_MODERATE,10,0,arabidopsis|rice|yeast,,97,0,10,arabidopsis|chicken|cow|mouse,97,62.5,0.9241
+THBD,"Thrombophilia due to thrombomodulin defect; Hemolytic uremic syndrome, atypical,",B_MODERATE,10,0,arabidopsis|rice|yeast,,97,0,10,arabidopsis|cow|dog|mouse|rat|worm,100,90.2,0.933
+AIRE,"Autoimmune polyendocrine syndrome 1, with or without reversible metaphyseal dysp",B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,10,arabidopsis|cow|fly|mouse,95,164.4,0.9293
+AMBN,Amelogenesis imperfecta 1F,B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,10,arabidopsis|dictyostelium|fly|mouse|rat,95,102.5,0.9282
+ASIP,Obesity and hypopigmentation,B_MODERATE,10,0,arabidopsis|maize|rice|yeast,,95,0,10,arabidopsis|gorilla|maize|mouse|pig|rat|rice|yeast,100,27.3,0.926
+COMP,Multiple epiphyseal dysplasia 1; Pseudoachondroplasia; Carpal tunnel syndrome 2,B_MODERATE,10,0,arabidopsis|maize|yeast,,95,0,10,arabidopsis|cow|fission_yeast|fly|mouse|rat,97,175.5,0.9229
+DBH,Orthostatic hypotension 1,B_MODERATE,10,0,arabidopsis|rice,,95,0,10,arabidopsis|cow|dog|mouse|rat,100,105.3,0.9346
+ELFN1,Dursun-Ozgul neurodevelopmental syndrome,B_MODERATE,10,0,arabidopsis|rice,,95,0,10,arabidopsis|fly|mouse|pig|rat|rice,95,89.5,0.9236
+ILDR1,"Deafness, autosomal recessive, 42",B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,10,arabidopsis|chimp|cow|fission_yeast|fly|mouse|rat|worm,95,89.4,0.9212
+JAM2,"Basal ganglia calcification, idiopathic, 8, autosomal recessive",B_MODERATE,10,0,arabidopsis|rice,,95,0,10,arabidopsis|dictyostelium|mouse|rat,95,43.9,0.9295
+NOG,"Symphalangism, proximal 1A; Multiple synostoses syndrome 1; Tarsal-carpal coalit",B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,10,arabidopsis|chicken|mouse|rice|zebrafish,100,37.5,0.9205
+OTUD7A,Neurodevelopmental disorder with hypotonia and seizures,B_MODERATE,10,0,arabidopsis|rice,,95,0,10,arabidopsis|dictyostelium|mouse|rat|rice,95,113.8,0.9424
+PCSK9,"Hypercholesterolemia, familial, 3",B_MODERATE,10,0,arabidopsis|rice|soybean|yeast,,95,0,10,arabidopsis|chicken|chimp|mouse|rat|yeast|zebrafish,100,235.7,0.9323
+RTN4R,Schizophrenia,B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,10,arabidopsis|dictyostelium|dog|mouse,95,141.1,0.9397
+SASH3,Immunodeficiency 102,B_MODERATE,10,0,arabidopsis|rice|yeast,,95,0,9,arabidopsis|fission_yeast|fly|mouse|rat|rice,95,241.9,0.9472
+TLR3,"Immunodeficiency 83, susceptibility to viral infections",B_MODERATE,10,0,arabidopsis|rice|soybean,,95,0,10,arabidopsis|cat|cow|dictyostelium|fly|mouse|rice|worm,100,115.5,0.9281
+WFDC2,Bronchiectasis and nasal polyposis,B_MODERATE,10,0,arabidopsis|soybean|yeast,,95,0,10,arabidopsis|cow|dictyostelium|mouse|pig|rat|soybean|yeast,95,62.8,0.9443
+CHRNA4,"Epilepsy, nocturnal frontal lobe, 1",B_MODERATE,10,0,arabidopsis|soybean,,92,0,10,arabidopsis|cow|fission_yeast|mouse|rat,92,168.4,0.9334
+FAM20C,Raine syndrome,B_MODERATE,10,0,arabidopsis|rice|yeast,,92,0,10,arabidopsis|cow|dictyostelium|fission_yeast|mouse|pig|yeast,92,170.4,0.9368
+FSHB,Hypogonadotropic hypogonadism 24 with or without anosmia,B_MODERATE,10,0,arabidopsis|rice|soybean,,92,0,10,arabidopsis|chicken|chimp|cow|fly|honeybee|mouse|rat,100,42.1,0.9274
+HEPHL1,"Abnormal hair, joint laxity, and developmental delay",B_MODERATE,2,0,rice|yeast,,92,0,9,cow|dog|mouse|pig|yeast|zebrafish,95,248.9,0.9465
+HNRNPH2,"Intellectual developmental disorder, X-linked, syndromic, Bain type",B_MODERATE,10,0,arabidopsis|rice|yeast,,92,0,10,arabidopsis|fission_yeast|fly|mouse|rat|rice|zebrafish,92,100.8,0.9312
+IRF2BPL,"Neurodevelopmental disorder with regression, abnormal movements, loss of speech,",B_MODERATE,10,0,arabidopsis,,92,0,6,arabidopsis|mouse,92,88.7,0.935
+LINGO1,"Intellectual developmental disorder, autosomal recessive 64",B_MODERATE,10,0,arabidopsis|maize|yeast,,92,0,10,arabidopsis|dictyostelium|fly|mouse|rat|zebrafish,100,92.7,0.9398
+NTRK1,Congenital insensitivity to pain with anhidrosis,B_MODERATE,10,0,arabidopsis,,92,0,10,arabidopsis|mouse|pig,100,78.9,0.923
+SLITRK1,Trichotillomania,B_MODERATE,10,0,arabidopsis|maize|yeast,,92,0,10,arabidopsis|mouse|rat|yeast,100,128.7,0.9388
+TBXT,Neural tube defects; Chordoma; Sacral agenesis with vertebral anomalies,B_MODERATE,9,0,arabidopsis|rice|yeast,,92,0,7,arabidopsis|honeybee|rat|rice|worm,92,315.0,0.9699
+ZNF341,"Hyper-IgE syndrome 3, autosomal recessive, with recurrent infections",B_MODERATE,10,0,arabidopsis|rice|yeast,,92,0,10,arabidopsis|fission_yeast|fly|rat|yeast|zebrafish,92,136.6,0.9205
+B4GALNT1,"Spastic paraplegia 26, autosomal recessive",B_MODERATE,9,0,arabidopsis|rice|yeast,,90,0,9,arabidopsis|fission_yeast|fly|mouse|rat|rice|yeast,90,357.2,0.9634
+DBT,Maple syrup urine disease 2,B_MODERATE,10,0,arabidopsis|rice|yeast,,90,0,10,arabidopsis|cow|mouse|rat|rice|zebrafish,95,257.6,0.9391
+GSX2,Diencephalic-mesencephalic junction dysplasia syndrome 2,B_MODERATE,7,0,arabidopsis|rice,,90,0,10,arabidopsis|fly|mouse|rat|rice|zebrafish,95,120.3,0.9343
+JAG1,"Alagille syndrome 1; Tetralogy of Fallot; Deafness, congenital heart defects, an",B_MODERATE,6,0,arabidopsis|rice|yeast,,90,0,10,arabidopsis|cat|cow|mouse|pig|rat|yeast|zebrafish,100,169.1,0.937
+KIRREL1,Nephrotic syndrome 23,B_MODERATE,2,0,arabidopsis|yeast,,90,0,4,arabidopsis|mouse|rat,90,203.5,0.9338
+NTN1,Mirror movements 4,B_MODERATE,10,0,arabidopsis|rice,,90,0,10,arabidopsis|chicken|cow|dictyostelium|mouse|rice,90,200.3,0.956
+POMGNT1,Muscular dystrophy-dystroglycanopathy congenital with brain and eye anomalies A3,B_MODERATE,10,0,arabidopsis|rice,,90,0,10,arabidopsis|cow|dictyostelium|fly|mouse|rat,95,122.8,0.9456
+SQSTM1,Paget disease of bone 3; Frontotemporal dementia and/or amyotrophic lateral scle,B_MODERATE,10,0,arabidopsis|rice|yeast,,90,0,10,arabidopsis|cow|dictyostelium|dog|fly|rat|rice,97,238.5,0.9307
+CFAP221,"Ciliary dyskinesia, primary, 55",B_MODERATE,2,0,arabidopsis,,88,0,2,arabidopsis|mouse,88,616.9,0.9628
+ASXL1,Bohring-Opitz syndrome; Myelodysplastic syndrome,B_MODERATE,1,0,arabidopsis,,87,0,10,arabidopsis|chicken|dictyostelium|fission_yeast|fly|mouse|zebrafish,90,350.6,0.9249
+ENG,"Telangiectasia, hereditary hemorrhagic, 1",B_MODERATE,10,0,arabidopsis|rice|yeast,,87,0,10,arabidopsis|cow|mouse|pig|rat|worm,95,85.5,0.9321
+MYRF,"Encephalitis/encephalopathy, mild, with reversible myelin vacuolization; Cardiac",B_MODERATE,8,0,arabidopsis|rice|yeast,,87,0,10,cat|chicken|cow|dictyostelium|dog|mouse|rice,93,140.6,0.9254
+NFIA,Brain malformations with or without urinary tract defects,B_MODERATE,6,0,arabidopsis|rice|yeast,,87,0,10,arabidopsis|dog|mouse|rat|worm,95,148.2,0.9632
+PHC1,"Microcephaly 11, primary, autosomal recessive",B_MODERATE,10,0,arabidopsis|maize|rice|yeast,,87,0,7,arabidopsis|cow|fission_yeast|mouse|yeast,95,70.7,0.9237
+PRRT2,"Episodic kinesigenic dyskinesia 1; Convulsions, familial infantile, with paroxys",B_MODERATE,7,0,arabidopsis|rice|yeast,,87,0,9,dictyostelium|mouse|rat|yeast,95,61.7,0.9381
+SLITRK2,"Intellectual developmental disorder, X-linked 111",B_MODERATE,10,0,arabidopsis|rice|yeast,,87,0,10,fission_yeast|fly|mouse|rat|zebrafish,95,93.7,0.9278
+SLITRK6,Deafness and myopia,B_MODERATE,10,0,arabidopsis|rice,,87,0,6,arabidopsis|dictyostelium|mouse,88,72.4,0.9409
+AMN,Imerslund-Grasbeck syndrome 2,B_MODERATE,9,0,arabidopsis|rice|soybean|yeast,,85,0,10,arabidopsis|chicken|fly|malaria|mouse|rat,92,126.4,0.9481
+ASXL2,Shashi-Pena syndrome,B_MODERATE,2,0,arabidopsis|rice,,85,0,10,chicken|dictyostelium|fly|mouse,92,222.1,0.928
+CAMTA1,Cerebellar dysfunction with variable cognitive and behavioral abnormalities,B_MODERATE,2,0,arabidopsis|rice,,85,0,8,mouse|rat|rice|worm|zebrafish,95,218.7,0.9286
+EMD,"Emery-Dreifuss muscular dystrophy 1, X-linked",B_MODERATE,10,0,arabidopsis|maize|rice,,85,0,6,arabidopsis|cow|mouse|rat|worm,97,40.9,0.9301
+FGFR2,Crouzon syndrome; Jackson-Weiss syndrome; Apert syndrome; Pfeiffer syndrome; Bea,B_MODERATE,10,0,arabidopsis|rice|yeast,,85,0,10,chicken|mouse|zebrafish,90,100.1,0.9229
+IL6ST,"Hyper-IgE syndrome 4A, autosomal dominant, with recurrent infections; Hyper-IgE ",B_MODERATE,2,0,arabidopsis,,85,0,10,arabidopsis|chicken|chimp|gorilla|mouse,92,151.8,0.9302
+LDLR,"Hypercholesterolemia, familial, 1",B_MODERATE,10,0,arabidopsis|rice|yeast,,85,0,10,chicken|mouse|rat|worm|zebrafish,100,128.9,0.9455
+LRIG2,Urofacial syndrome 2,B_MODERATE,4,0,arabidopsis|yeast,,85,0,9,arabidopsis|mouse|rat|worm|zebrafish,100,249.5,0.9474
+LRP8,Myocardial infarction 1,B_MODERATE,10,0,arabidopsis|rice|yeast,,85,0,10,arabidopsis|cow|dictyostelium|mouse|rat,95,146.4,0.9339
+MRTFA,Immunodeficiency 66,B_MODERATE,10,0,arabidopsis|rice|yeast,,85,0,10,arabidopsis|fission_yeast|fly|mouse|rat|worm,92,206.8,0.9234
+SMAD7,Colorectal cancer 3,B_MODERATE,9,0,arabidopsis|rice|yeast,,85,0,10,arabidopsis|cow|dictyostelium|fly|mouse|rat,100,196.3,0.9627
+UNC5C,Alzheimer disease,B_MODERATE,4,0,arabidopsis|rice|yeast,,85,0,10,chicken|chimp|dog|mouse|rat,100,181.2,0.9314
+BRCA1,"Breast cancer; Breast-ovarian cancer, familial, 1; Ovarian cancer; Pancreatic ca",B_MODERATE,2,0,arabidopsis,,83,0,2,fly|gorilla,90,224.2,0.9428
+CDH11,Elsahy-Waters syndrome; Teebi hypertelorism syndrome 2,B_MODERATE,2,0,arabidopsis|yeast,,83,0,10,chicken|cow|mouse|rat|zebrafish,100,238.5,0.9531
+SHANK2,Autism 17,B_MODERATE,2,0,arabidopsis,,83,0,2,chimp|malaria,87,201.7,0.931
+ADGRL1,"Developmental delay, behavioral abnormalities, and neuropsychiatric disorders",B_MODERATE,2,0,arabidopsis|rice,,82,0,1,dictyostelium,85,467.0,0.9203
+KLKB1,Prekallikrein deficiency,B_MODERATE,1,0,rice,,82,0,2,cow|fly,85,298.4,0.9629
+SYCP2,Spermatogenic failure 1,B_MODERATE,5,0,arabidopsis|rice|yeast,,82,0,7,chimp|fly|mouse|rat,95,355.4,0.9251
+TAF2,"Neurodevelopmental disorder with feeding difficulties, thin corpus callosum, and",B_MODERATE,3,0,arabidopsis|rice,,82,0,2,cow|mouse,88,451.6,0.9211
+TMEM132E,"Deafness, autosomal recessive, 99",B_MODERATE,1,0,yeast,,82,0,10,cat|chimp|cow|mouse|rat|zebrafish,100,231.4,0.9328
+TRDN,"Cardiac arrhythmia syndrome, with or without skeletal muscle weakness",B_MODERATE,4,0,arabidopsis|rice|yeast,,82,0,10,chicken|cow|dictyostelium|dog|mouse|rat,100,161.1,0.9393
+CR2,"Systemic lupus erythematosus 9; Immunodeficiency, common variable, 7",B_MODERATE,2,0,arabidopsis|yeast,,80,0,1,mouse,85,163.9,0.9298
+DSC2,"Arrhythmogenic right ventricular dysplasia, familial, 11",B_MODERATE,9,0,arabidopsis|rice|yeast,,80,0,10,chicken|chimp|cow|mouse,100,229.1,0.9278
+FBXO38,"Neuronopathy, distal hereditary motor, autosomal dominant 6",B_MODERATE,1,0,arabidopsis,,80,0,0,,0,622.4,0.948
+KAT6B,"Ohdo syndrome, SBBYS variant; Genitopatellar syndrome",B_MODERATE,1,0,arabidopsis,,80,0,3,fission_yeast|fly,92,148.6,0.9229
+LIFR,Stuve-Wiedemann syndrome 1,B_MODERATE,1,0,arabidopsis,,80,0,2,mouse|rat,85,632.6,0.9563
+MEGF10,"Congenital myopathy 10A, severe variant; Congenital myopathy 10B, mild variant",B_MODERATE,1,0,yeast,,80,0,6,mouse|worm|zebrafish,100,360.4,0.9573
+NRIP1,Congenital anomalies of kidney and urinary tract 3,B_MODERATE,1,0,rice,,80,0,5,dictyostelium|fly|mouse|worm|zebrafish,90,130.2,0.9275
+PCDHGC4,Neurodevelopmental disorder with poor growth and skeletal anomalies,B_MODERATE,1,0,rice,,80,0,10,chicken|chimp|cow|mouse,100,329.1,0.9293
+PHF8,"Intellectual developmental disorder, X-linked, syndromic, Siderius type",B_MODERATE,0,1,,candida,0,80,3,fly|mouse|rat,87,432.0,0.9541
+PRR12,Neuroocular syndrome 1,B_MODERATE,0,1,,tuberculosis,0,80,0,,0,758.1,0.9392
+TCOF1,Treacher Collins syndrome 1,B_MODERATE,1,0,arabidopsis,,80,0,4,dictyostelium|mouse|rat,90,103.4,0.9211
+AP3D1,Hermansky-Pudlak syndrome 10,C_LOW,0,0,,,0,0,0,,0,684.4,0.9299
+ASXL3,Bainbridge-Ropers syndrome,C_LOW,0,0,,,0,0,0,,0,394.6,0.9353
+ATXN2,Spinocerebellar ataxia 2; Amyotrophic lateral sclerosis 13,C_LOW,0,0,,,0,0,2,mouse,93,240.0,0.9343
+CDH23,"Usher syndrome 1D; Usher syndrome 1D/F; Deafness, autosomal recessive, 12; Pitui",C_LOW,0,0,,,0,0,0,,0,314.6,0.9226
+CRB2,Focal segmental glomerulosclerosis 9; Retinitis pigmentosa; Ventriculomegaly wit,C_LOW,0,0,,,0,0,10,mouse|rat,95,285.5,0.9353
+DCC,"Mirror movements 1; Gaze palsy, familial horizontal, with progressive scoliosis,",C_LOW,0,0,,,0,0,0,,0,731.4,0.9587
+EGF,Hypomagnesemia 4,C_LOW,0,0,,,0,0,6,pig|rat|worm|zebrafish,95,352.2,0.9644
+KCNE2,"Long QT syndrome 6; Atrial fibrillation, familial, 4",C_LOW,0,0,,,0,0,0,,0,83.6,0.921
+MBD5,"Intellectual developmental disorder, autosomal dominant 1",C_LOW,0,0,,,0,0,10,chicken|dictyostelium|fly|mouse|rat,93,299.0,0.9433
+MN1,CEBALID syndrome,C_LOW,0,0,,,0,0,1,mouse,100,283.2,0.9728
+NEXMIF,"Intellectual developmental disorder, X-linked 98",C_LOW,0,0,,,0,0,1,fly,90,483.7,0.9206
+NHS,Nance-Horan syndrome; Cataract 40,C_LOW,0,0,,,0,0,5,fly|mouse,97,424.0,0.9436
+NIPBL,Cornelia de Lange syndrome 1,C_LOW,0,0,,,0,0,0,,0,194.3,0.9335
+ORC1,Meier-Gorlin syndrome 1,C_LOW,0,0,,,0,0,0,,0,801.5,0.9912
+PARD3,Neural tube defects,C_LOW,0,0,,,0,0,0,,0,854.0,0.9602
+PIK3CD,"Immunodeficiency 14A with lymphoproliferation, autosomal dominant; Immunodeficie",C_LOW,0,0,,,0,0,1,fission_yeast,87,593.9,0.9473
+SALL1,Townes-Brocks syndrome 1,C_LOW,0,0,,,0,0,1,mouse,85,392.8,0.9438
+YEATS2,"Epilepsy, familial adult myoclonic, 4",C_LOW,0,0,,,0,0,4,dictyostelium|fly|mouse,87,236.4,0.9465

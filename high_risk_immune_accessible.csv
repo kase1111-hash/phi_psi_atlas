@@ -1,0 +1,17 @@
+gene,disease,risk_category,n_diet_mimics,n_micro_mimics,diet_species,micro_species,best_diet_score,best_micro_score,n_replacements,rep_species,best_rep_score,concentration,gini,accessibility
+FGF23,"Hypophosphatemic rickets, autosomal dominant; Tumoral calcinosis, hyperphosphate",A_HIGH,9,1,arabidopsis|rice,bacillus,100,92,10,arabidopsis|bacillus|fly|mouse|rat|rice,100,53.9,0.9339,Hormone
+LHB,Hypogonadotropic hypogonadism 23 with or without anosmia,A_HIGH,7,3,arabidopsis,bacillus,92,100,10,arabidopsis|bacillus|chimp|cow|dictyostelium|mouse|pig|rat,100,51.8,0.9291,Hormone
+MPEG1,Immunodeficiency 77,A_HIGH,9,1,arabidopsis|rice|soybean|yeast,bacillus,97,92,10,arabidopsis|bacillus|fission_yeast|mouse|worm,100,208.6,0.9415,Immune-related
+CFI,"Hemolytic uremic syndrome, atypical, 3; Complement factor I deficiency; Macular ",A_HIGH,9,1,arabidopsis|rice|soybean|yeast,candida,93,95,10,candida|cow|dictyostelium|mouse|worm|yeast,95,90.4,0.9247,Secreted/Factor
+CBLIF,Hereditary intrinsic factor deficiency,A_HIGH,5,5,arabidopsis|rice|soybean|yeast,ecoli|pseudomonas|salmonella|staph|tuberculosis,92,95,10,arabidopsis|cow|ecoli|pseudomonas|rice|salmonella|staph|yeast|zebrafish,95,222.0,0.9282,Secreted/Factor
+B2M,"Immunodeficiency 43; Amyloidosis, hereditary systemic 6",A_HIGH,8,2,arabidopsis|rice|yeast,bacillus,92,90,10,arabidopsis|bacillus|chicken|chimp|cow|mouse,95,57.0,0.9299,Immune-related
+CD19,"Immunodeficiency, common variable, 3",A_HIGH,9,1,arabidopsis|rice|yeast,candida,87,95,10,candida|chimp|dog|mouse,97,73.2,0.9266,"Extracellular Receptor, Immune-related"
+CD40,Immunodeficiency with hyper-IgM 3,A_HIGH,7,3,arabidopsis|rice|yeast,campylobacter|candida|staph,88,92,10,arabidopsis|campylobacter|cow|mouse|rat|staph,100,103.9,0.9389,"Extracellular Receptor, Immune-related"
+ISG15,"Immunodeficiency 38, with basal ganglia calcification",A_HIGH,6,4,arabidopsis|soybean|yeast,bacillus|ecoli|pseudomonas,90,90,10,arabidopsis|cow|dictyostelium|mouse|pseudomonas|rat|worm|yeast,93,61.0,0.9357,Immune-related
+TSHB,"Hypothyroidism, congenital, non-goitrous, 4",A_HIGH,8,2,arabidopsis|rice|soybean,bacillus,92,87,10,arabidopsis|bacillus|chicken|cow|fly|honeybee|mouse,97,69.9,0.9389,Hormone
+CD70,Lymphoproliferative syndrome 3,A_HIGH,6,4,arabidopsis|rice|yeast,bacillus|pseudomonas|tuberculosis,88,90,10,chicken|cow|dictyostelium|fission_yeast|mouse|pseudomonas|rat|rice|tuberculosis,93,65.4,0.9383,Extracellular Receptor
+SYK,Immunodeficiency 82 with systemic inflammation,A_HIGH,8,2,arabidopsis|yeast,salmonella|tuberculosis,90,88,10,arabidopsis|cow|fission_yeast|mouse|salmonella|yeast,100,249.2,0.9267,Immune-related
+IFNGR2,Immunodeficiency 28,A_HIGH,7,3,arabidopsis|rice|yeast,helicobacter|pseudomonas|salmonella,85,90,10,arabidopsis|cow|helicobacter|mouse|rat,95,74.5,0.9454,Immune-related
+IFNAR2,Immunodeficiency 45,A_HIGH,8,2,arabidopsis|rice,candida,87,85,10,arabidopsis|cow|dog|mouse|rat,95,127.9,0.9339,Immune-related
+LAT,Immunodeficiency 52,A_HIGH,9,1,arabidopsis|rice|yeast,campylobacter,90,82,9,arabidopsis|fission_yeast|fly|mouse|rat|rice,90,86.8,0.949,Immune-related
+CD320,"Methylmalonic aciduria, transient, due to transcobalamin receptor defect",A_HIGH,9,1,arabidopsis|rice|yeast,ecoli,85,80,9,arabidopsis|cow|mouse|rat|rice|zebrafish,87,48.1,0.9305,Extracellular Receptor
